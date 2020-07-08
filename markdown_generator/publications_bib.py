@@ -36,6 +36,7 @@ def get_info(data_line):
 
     if 'howpublished' in out and out['journal']=='':
         out['journal'] = out['howpublished']
+    out['author'] = out['author'].replace('\\', '')
     return out
 def abb_author(authors):
     if len(authors.split(' and '))>2:
