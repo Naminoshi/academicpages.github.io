@@ -14,11 +14,11 @@ Education
 
 Work experience
 ======
-\cventryMay 2006 -- Febuary 2007: Assistant on prep course for University and on astronomy classes
+* May 2006 -- Febuary 2007: Assistant on prep course for University and on astronomy classes
   * Colegio e Curso Pre Vestibular Objetivo
   * Duties: Resolved questions of students who were preparing to take the admission exams for universities in the fields of mathematics, physics and chemistry. Also assisted the teacher of the extra curricular astronomy classes and lectured.
 
-\cventryApril 2008 -- December 2008: Assistant on prep course for University and on astronomy classes
+* April 2008 -- December 2008: Assistant on prep course for University and on astronomy classes
   * Colegio e Curso Pre Vestibular Objetivo
   * Duties: Resolved questions of students who were preparing to take the admission exams for universities in the fields of mathematics, physics and chemistry. Also assisted the teacher of the extra curricular astronomy classes and lectured.
   
