@@ -7,31 +7,35 @@ author_profile: true
 
 Education
 ======
-* B.S. in Github, Github University, 2012
-* M.S. in Jekyll, Github University, 2014
-* Ph.D in Version Control Theory, Github University, 2018 (expected)
+* B.Sc. in Physics with Specialization in Astronomy, Universidade de Sao Paulo, 2009
+* M.Phys. in Physics, Universidade de Sao Paulo, 2012
+* Ph.D in Physics in Physics, Universidade de Sao Paulo, 2017
+
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+\cventryMay 2006 -- Febuary 2007: Assistant on prep course for University and on astronomy classes
+  * Colegio e Curso Pre Vestibular Objetivo
+  * Duties: Resolved questions of students who were preparing to take the admission exams for universities in the fields of mathematics, physics and chemistry. Also assisted the teacher of the extra curricular astronomy classes and lectured.
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+\cventryApril 2008 -- December 2008: Assistant on prep course for University and on astronomy classes
+  * Colegio e Curso Pre Vestibular Objetivo
+  * Duties: Resolved questions of students who were preparing to take the admission exams for universities in the fields of mathematics, physics and chemistry. Also assisted the teacher of the extra curricular astronomy classes and lectured.
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Languages
+  * English: Listen(Advanced), Speak(Advanced), Read(Advanced), Write(Advanced)
+  * Portuguese: Listen(Advanced), Speak(Advanced), Read(Advanced), Write(Advanced)
+  * French: Listen(Elementary), Speak(Elementary), Read(Intermediate), Write(Elementary)
+  * German: Listen(Intermediate), Speak(Intermediate), Read(Intermediate), Write(Intermediate)
+* Programming Languages
+  * Python: Advanced
+  * C,C++: Intermediate
 
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* Member of DES with buildership
+* Member of Brazilian-Participation-Group of LSST
+* Full member of DESC-LSST
+* Currently leading DES-Brazil Cluster working group
