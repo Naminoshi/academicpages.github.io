@@ -57,7 +57,8 @@ def gen_file(pd):
     date = '%s-%s-01'%(pd['year'], mon_num[pd['month'].lower()])
     filename = '%s-%s.md'%(date, pd['ref'])
     links = ', '.join([fmt%pd[k] for k, fmt in
-                        [('eprint', '[**ArXiv**](https://arxiv.org/abs/%s)'),
+                        [('doi', '[**Publisher**](http://doi.org/%s)'),
+                         ('eprint', '[**ArXiv**](https://arxiv.org/abs/%s)'),
                          ('adsurl', '[**ADS**](%s)'),
                         ]
                     if k in pd
