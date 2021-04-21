@@ -85,11 +85,11 @@ analytics:
 author:
   name             : "Michel Aguena"
   avatar           : "images/profile.png"
-  bio              : "Postdoc at LIneA"
-  location         : "São Paulo, Brazil"
-  employer         : "<a href='https://www.linea.gov.br'>LIneA</a>"
+  bio              : "Postdoc at LAPP"
+  location         : "Annecy, France"
+  employer         : "<a href='https://lapp.in2p3.fr/?lang=en'>LAPP</a>"
   googlescholar    : "https://scholar.google.com.br/citations?user=qIYT-M8AAAAJ"
-  email            : "aguena@if.usp.br"
+  email            : "aguena@lapp.in2p3.fr"
   uri              :
   bitbucket        : "aguena"
   codepen          :
@@ -103,7 +103,7 @@ author:
   instagram        :
   lastfm           :
   linkedin         :
-  orcid            : #"http://orcid.org/yourorcidurl"
+  orcid            : https://orcid.org/0000-0001-5679-6747
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
