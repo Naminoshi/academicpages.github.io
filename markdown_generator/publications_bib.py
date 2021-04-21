@@ -56,6 +56,12 @@ def gen_file(pd):
     print(pd)
     date = '%s-%s-01'%(pd['year'], mon_num[pd['month'].lower()])
     filename = '%s-%s.md'%(date, pd['ref'])
+    links = ', '.join([fmt%pd[k] for k, fmt in
+                        [('eprint', '[**ArXiv**](https://arxiv.org/abs/%s)'),
+                         ('adsurl', '[**ADS**](%s)'),
+                        ]
+                    if k in pd
+                    ])
     content = '\n'.join([
         '---',
         'title: "%s"'%pd['title'],
@@ -70,7 +76,7 @@ def gen_file(pd):
                          vol_page(pd), pd['month'].capitalize(), pd['year']),
         '---',
         '',
-        '[**ArXiv**](https://arxiv.org/abs/%s), [**ADS**](%s)'%(pd['eprint'], pd['adsurl']),
+        links,
         #'This paper is about the number 1. The number 2 is left for future work.',
         #'[Download paper here](http://academicpages.github.io/files/paper1.pdf)',
         #'',
@@ -80,14 +86,14 @@ def gen_file(pd):
                          pd['year'], pd['title'], journals(pd['journal']),
                          vol_page(pd), pd['month'].capitalize(), pd['year']),
         ])
-    print '\n****%s\n_____\n%s\n'%(filename, content)
+    print('\n****%s\n_____\n%s\n'%(filename, content))
     return filename, content
 
 if __name__=='__main__':
     import sys
     inbib =  sys.argv[1]
     data = ''.join(open(inbib, 'r').readlines())
-    print data.split('\n@ARTICLE')[0]
+    print(data.split('\n@ARTICLE')[0])
     data = data.replace('\n', '')
     data_red = data.replace('  ', ' ')
     while data!=data_red:
@@ -98,9 +104,9 @@ if __name__=='__main__':
     data = [d for dat in data for d in dat.split('@MISC{') if d!='']
     
     for dat in data:
-        #print gen_file(get_info(dat))
+        #print(gen_file(get_info(dat)))
         name, content = gen_file(get_info(dat))
-        print name
+        print(name)
         f = open('_publications/%s'%name, 'w')
-        print >>f, content
+        print(content, file=f)
         f.close()
